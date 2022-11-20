@@ -47,6 +47,9 @@ for (i, imagePath) in enumerate(imagePaths):
         knownEncodings.append(encoding)
         knownNames.append(name)
 
+    if i > 1:
+        break
+
 # dump (lưu) the facial encodings + names vào ổ cứng
 print("[INFO] serializing encodings...")
 data = {"encodings": knownEncodings, "names": knownNames}
