@@ -1,6 +1,6 @@
 
 # USAGE
-# python recognizeFace.py --encodings encodings.pickle --image sv.jpg
+# python recognizeFace.py --encodings encodings.pickle --image brave.png
 import face_recognition
 import argparse
 import pickle
